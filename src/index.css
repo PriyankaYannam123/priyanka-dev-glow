@@ -92,7 +92,7 @@
   }
 
   .glow-button {
-    @apply glass relative overflow-hidden group;
+    @apply glass relative overflow-hidden;
     box-shadow: 
       0 0 20px hsl(var(--glow-primary) / 0.3),
       0 0 40px hsl(var(--glow-primary) / 0.1);
@@ -121,14 +121,13 @@
     opacity: 0;
     transform: translateY(30px);
   }
-}
 
-@layer base {
-  * {
-    @apply border-border;
+  /* Hover effects */
+  .hover-scale {
+    transition: transform 0.2s ease-in-out;
   }
 
-  body {
-    @apply bg-background text-foreground;
+  .hover-scale:hover {
+    transform: scale(1.05);
   }
 }
