@@ -309,12 +309,12 @@ const Portfolio = () => {
                   <h3 className="text-2xl font-semibold">Find me on</h3>
                   
                   <div className="space-y-4">
-                    <GlowButton href="https://github.com" className="w-full">
+                    <GlowButton href="http://github.com/PriyankaYannam123" className="w-full">
                       <Github className="w-5 h-5 mr-3" />
                       GitHub
                     </GlowButton>
                     
-                    <GlowButton href="https://linkedin.com" className="w-full">
+                    <GlowButton href="https://www.linkedin.com/in/priyanka-yannam-a38872249/" className="w-full">
                       <Linkedin className="w-5 h-5 mr-3" />
                       LinkedIn
                     </GlowButton>
